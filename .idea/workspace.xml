@@ -152,9 +152,7 @@
       <change afterPath="$PROJECT_DIR$/../usoDaoDto/src/main/java/Interfaces/Dao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../usoDaoDto/src/main/java/entidades/Usuario.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../usoDaoDto/src/main/java/implementacion/mariadb/UsuarioImplementacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/protalento/utilidades/Fechas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/protalento/utilidades/Fechas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,7 +349,7 @@
       <updated>1658773146726</updated>
       <workItem from="1658773149578" duration="12512000" />
       <workItem from="1658847754061" duration="2288000" />
-      <workItem from="1658850633885" duration="33268000" />
+      <workItem from="1658850633885" duration="33724000" />
     </task>
     <servers />
   </component>
