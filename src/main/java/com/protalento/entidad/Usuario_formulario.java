@@ -4,7 +4,8 @@ import java.time.LocalDate;
 
 public class Usuario_formulario {
     private String id;
-    private Documento documento;
+    private String numeroDoc;
+    private String tipoDoc;
     private String nombre;
     private String Apellido;
     private LocalDate fechaNacimiento;
@@ -12,9 +13,10 @@ public class Usuario_formulario {
     public Usuario_formulario() {
     }
 
-    public Usuario_formulario(String id, Documento documento, String nombre, String apellido, LocalDate fechaNacimiento) {
+    public Usuario_formulario(String id, String numeroDoc, String tipoDoc, String nombre, String apellido, LocalDate fechaNacimiento) {
         this.id = id;
-        this.documento = documento;
+        this.numeroDoc = numeroDoc;
+        this.tipoDoc = tipoDoc;
         this.nombre = nombre;
         Apellido = apellido;
         this.fechaNacimiento = fechaNacimiento;
@@ -28,12 +30,20 @@ public class Usuario_formulario {
         this.id = id;
     }
 
-    public Documento getDocumento() {
-        return documento;
+    public String getNumeroDoc() {
+        return numeroDoc;
     }
 
-    public void setDocumento(Documento documento) {
-        this.documento = documento;
+    public void setNumeroDoc(String numeroDoc) {
+        this.numeroDoc = numeroDoc;
+    }
+
+    public String getTipoDoc() {
+        return tipoDoc;
+    }
+
+    public void setTipoDoc(String tipoDoc) {
+        this.tipoDoc = tipoDoc;
     }
 
     public String getNombre() {
@@ -62,12 +72,8 @@ public class Usuario_formulario {
 
     @Override
     public String toString() {
-        return "Usuario_formulario{" +
-                "id='" + id + '\'' +
-                ", documento=" + documento +
-                ", nombre='" + nombre + '\'' +
-                ", Apellido='" + Apellido + '\'' +
-                ", fechaNacimiento=" + fechaNacimiento +
-                '}';
+        return
+                "id: " + id + " numeroDoc: " + numeroDoc + " tipoDoc: " + tipoDoc + " nombre: " + nombre  + " Apellido: " + Apellido +
+                " fechaNacimiento: " + fechaNacimiento;
     }
 }

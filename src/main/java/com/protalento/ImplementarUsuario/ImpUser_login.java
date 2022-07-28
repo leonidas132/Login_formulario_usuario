@@ -84,7 +84,7 @@ public class ImpUser_login implements DAO<User_login,String > {
     @Override
     public boolean eliminar(User_login user_login) {
         String sql = "delete from credenciales where id =?";
-        try {
+        try{
             if(null== preparedStatementEliminar) {
                 preparedStatementEliminar = conexion.getConexion().prepareStatement(sql);
             }

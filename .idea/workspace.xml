@@ -152,7 +152,14 @@
       <change afterPath="$PROJECT_DIR$/../usoDaoDto/src/main/java/Interfaces/Dao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../usoDaoDto/src/main/java/entidades/Usuario.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../usoDaoDto/src/main/java/implementacion/mariadb/UsuarioImplementacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/protalento/utilidades/Fechas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/protalento/utilidades/Fechas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/protalento/ImplementarUsuario/ImpUser_login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/protalento/ImplementarUsuario/ImpUser_login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/protalento/ImplementarUsuario/ImpUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/protalento/ImplementarUsuario/ImpUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/protalento/entidad/Documento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/protalento/entidad/Documento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/protalento/entidad/Usuario_formulario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/protalento/entidad/Usuario_formulario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/protalento/interfaces_jdbc/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/protalento/interfaces_jdbc/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/protalento/servles/ServletForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/protalento/servles/ServletForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bienvenido.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bienvenido.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,6 +217,19 @@
   <component name="RunManager" selected="Tomcat Server.Tomcat -">
     <configuration name="ImpUser_login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.protalento.ImplementarUsuario.ImpUser_login" />
+      <module name="jsp_web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.protalento.ImplementarUsuario.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImpUsuario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.protalento.ImplementarUsuario.ImpUsuario" />
       <module name="jsp_web" />
       <extension name="coverage">
         <pattern>
@@ -331,10 +351,12 @@
     </configuration>
     <list>
       <item itemvalue="Application.ImpUser_login" />
+      <item itemvalue="Application.ImpUsuario" />
       <item itemvalue="Tomcat Server.Tomcat -" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImpUsuario" />
         <item itemvalue="Application.ImpUser_login" />
       </list>
     </recent_temporary>
@@ -349,7 +371,7 @@
       <updated>1658773146726</updated>
       <workItem from="1658773149578" duration="12512000" />
       <workItem from="1658847754061" duration="2288000" />
-      <workItem from="1658850633885" duration="33724000" />
+      <workItem from="1658850633885" duration="52440000" />
     </task>
     <servers />
   </component>

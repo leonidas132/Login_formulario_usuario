@@ -22,7 +22,7 @@
        <div class="dropdown">
            <a style="color: white" href="#"  class="nav-link dropdown-toggle" data-toggle ="dropdown">Signed in as</a>
            <div class="dropdown-menu text-center">
-               <form action="ServletForm" method="post">
+               <form action="ServletForm" method="get">
                    <a><img src="img/profile2.png"height="80" width="80"></a><br>
                    <a>Usuario: ${usuario}</a><br>
                    <a>clave: ${clave}</a><br>
@@ -41,6 +41,9 @@
 
        <form action="ServletForm" method="post">
            <div  class="padre d-flex flex-sm-column justify-content-center align-items-center">
+               <div class="form-group">
+                   <p><strong>completar la informacion </strong></p>
+               </div>
 
                <div class="form-group">
                    <label> ID user:</label>
@@ -69,7 +72,14 @@
                    <input type="text" name="apellido" id="apellido" placeholder="Apellido">
 
                </div>
-               <input class="btn btn-danger btn-block" type="e"name="guardar" value="Guardar" id="guardar">
+               <div class="form-group">
+                   <label>FechaN:</label>
+                   <input type="text" name="fecha" id="fecha" placeholder="fecha">
+
+               </div>
+
+               <input class="btn btn-danger btn-block" type="submit" name="guardar" value="Guardar" id="guardar">
+               <input style="background-color: orange "  class="btn  btn-block" type="reset" name="limpiar" value="Limpiar">
 
            </div>
 
