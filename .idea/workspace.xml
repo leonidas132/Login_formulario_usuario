@@ -114,6 +114,23 @@
       <change afterPath="$PROJECT_DIR$/../manejoArreglo/src/main/java/org/example/ArraysPersona.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../manejoMatrices/src/main/java/Persona/Persona.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../manejoMatrices/src/main/java/org/matrices/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/app/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/entidades/Administrativo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/entidades/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/entidades/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/entidades/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/entidades/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/entidades/Profesor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/enumerados/TipoDocumento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/exectiones/exectioDocumento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/exectiones/exectioFecha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/implementaciones/impAdministrativo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/implementaciones/impDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/implementaciones/impEstudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/implementaciones/impProfesor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/jdbc/Conexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/jdbc/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mejora_sistema_colegio/src/main/java/org/protalento/utilidades/Fecha.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../modulo5-laboratorio1/src/main/java/entidades/Administrativo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../modulo5-laboratorio1/src/main/java/entidades/Alumno.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../modulo5-laboratorio1/src/main/java/entidades/Curso.java" afterDir="false" />
@@ -154,12 +171,9 @@
       <change afterPath="$PROJECT_DIR$/../usoDaoDto/src/main/java/implementacion/mariadb/UsuarioImplementacion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/protalento/ImplementarUsuario/ImpUser_login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/protalento/ImplementarUsuario/ImpUser_login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/protalento/ImplementarUsuario/ImpUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/protalento/ImplementarUsuario/ImpUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/protalento/entidad/Documento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/protalento/entidad/Documento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/protalento/entidad/User_login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/protalento/entidad/User_login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/protalento/entidad/Usuario_formulario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/protalento/entidad/Usuario_formulario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/protalento/interfaces_jdbc/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/protalento/interfaces_jdbc/DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/protalento/servles/ServletForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/protalento/servles/ServletForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bienvenido.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bienvenido.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,19 +210,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Luis Nuñez/Documents/stand web/jsp_web/src/main/webapp/img",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatSettingConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Luis Nuñez/Documents/stand web/jsp_web/src/main/webapp/img&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatSettingConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Luis Nuñez\Documents\stand web\jsp_web\src\main\webapp\img" />
@@ -371,7 +385,11 @@
       <updated>1658773146726</updated>
       <workItem from="1658773149578" duration="12512000" />
       <workItem from="1658847754061" duration="2288000" />
-      <workItem from="1658850633885" duration="52440000" />
+      <workItem from="1658850633885" duration="53671000" />
+      <workItem from="1659023983172" duration="860000" />
+      <workItem from="1659033865429" duration="2974000" />
+      <workItem from="1659108873585" duration="20000" />
+      <workItem from="1659473284513" duration="358000" />
     </task>
     <servers />
   </component>

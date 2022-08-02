@@ -2,7 +2,7 @@ package com.protalento.entidad;
 
 import java.time.LocalDate;
 
-public class Usuario_formulario {
+public class Usuario_formulario { //Business Object
     private String id;
     private String numeroDoc;
     private String tipoDoc;

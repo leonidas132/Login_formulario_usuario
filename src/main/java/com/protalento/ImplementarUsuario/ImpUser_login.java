@@ -11,6 +11,12 @@ import java.sql.SQLException;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
+
+//Data Sources
+ /*Representada por un objeto que implementa los algoritmos
+  necesarios y el acceso a los datos, para este ejemplo separamos la
+  conexión y la implementación para abstraerlo aun mas.
+*/
 public class ImpUser_login implements DAO<User_login,String > {
 
     private PreparedStatement preparedStatementBuscar;
@@ -152,6 +158,12 @@ public class ImpUser_login implements DAO<User_login,String > {
     }
 
     public static void main(String[] args) {
+        //Transfer Object
+        /*Representada por una clase que se encarga
+         de instanciar los objetos para poder
+        interactuar con nuestro origen de datos
+        */
+
         ImpUser_login impUser_login = new ImpUser_login();
        // System.out.println(impUser_login.buscar("12"));
      //   User_login userLogin = new User_login("02","user02");

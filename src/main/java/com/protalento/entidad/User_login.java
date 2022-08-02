@@ -1,6 +1,6 @@
 package com.protalento.entidad;
 
-public class User_login {
+public class User_login {    //Business Object
     private String id;
     private String usuario;
 
